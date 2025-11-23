@@ -85,6 +85,7 @@ For test environment:
 
 ```env
 MONGO_URI=mongodb://127.0.0.1:27017/voucher-test
+PORT=5001
 ```
 
 ---
