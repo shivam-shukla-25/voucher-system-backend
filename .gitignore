@@ -1,0 +1,54 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+
+# TypeScript build
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*       # For .env.test, .env.dev, etc.
+!.env.example  # Keep example env file
+
+# Logs
+logs/
+*.log
+log.txt
+
+# Coverage from Jest
+coverage/
+.jest-cache/
+.jest/
+
+# Temporary files
+.tmp/
+temp/
+*.tmp
+
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Swagger build output if generated
+swagger-output.json
+
+# Render build artifacts
+.render/
+
+# Lock files backup
+package-lock.json.gz
+
+# Testing related
+__tests__/
+test-report.xml
+
+# Cache
+.cache/
+.vercel/
