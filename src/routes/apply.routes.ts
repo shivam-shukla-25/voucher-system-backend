@@ -1,9 +1,9 @@
 import { Router } from "express";
 import applyController from "../controllers/apply.controller";
-import { validateObjectId } from "../middleware/validateObjectId";
+import { validateOrderId } from "../middleware/validateOrderId";
 
 const router = Router();
 
-router.post("/", validateObjectId, applyController.apply);
+router.post("/", validateOrderId, applyController.apply);
 
 export default router;

@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import mongoose from "mongoose";
 
-export function validateObjectId(
+export function validateParamObjectId(
   req: Request,
   res: Response,
   next: NextFunction
