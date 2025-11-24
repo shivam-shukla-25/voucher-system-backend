@@ -11,7 +11,7 @@ A scalable Node.js + TypeScript backend for managing vouchers, promotions, disco
 
 - Voucher management (create, update, soft delete)
 - Promotion management with eligibility rules
-- Discount application engine (supports items only or both)
+- Discount application engine (supports items only or items + orderId)
 - Order management with subtotal/total calculation
 - Zod validation with user-friendly error messages
 - Rate limiting (60 requests/minute per IP)
